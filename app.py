@@ -30,7 +30,7 @@ lottie_hello = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_hx
 
 st_lottie(lottie_hello, key = "hello")
 
-#st.title("Para que conozcas a quienes votaron en contra de la Reforma Eléctrica del, Lic. AMLO")
+st.title("Diputados federales")
 st.header("Página web, creada por: Javier Horacio Pérez Ricárdez")
 
 st.subheader("")
