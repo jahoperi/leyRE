@@ -80,7 +80,7 @@ if selected == "Javier":
                     
 if selected == "PAN":
    st.title(f"Has seleccionado {selected}")
-   st.header("Diputados del Partido Acción Nacional que votaron en contra: 113")
+   st.header("Diputados del Partido Acción Nacional")
    st.subheader("")
    st.subheader("1: Aguado Romero Paulina")
    st.subheader("")
