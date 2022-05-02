@@ -49,7 +49,7 @@ st.subheader("")
 #1 vertical menu
 selected = option_menu(
     menu_title = "Por partido político", #required
-    options = ["PAN", "PRI", "MC", "PRD", "MORENA"], #required
+    options = ["Javier","PAN", "PRI", "MC", "PRD", "MORENA"], #required
     icons = ["", "", "",""], #optional
     menu_icon = "cast", #optional
     default_index = 0, #optional
@@ -68,7 +68,14 @@ selected = option_menu(
 #    orientation = "horizontal",
 #)    
 
-
+if selected == "Javier":
+   st.title(f"Has seleccionado {selected}")
+   st.header("Creador de la página web")
+   st.subheader("")
+   st.subheader("Javier Horacio Pérez Ricárdez")
+   st.subheader("")
+   image = Image.open('0.jpg')
+   st.image(image)
 
                     
 if selected == "PAN":
